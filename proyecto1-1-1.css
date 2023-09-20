@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 'Century Gothic', sans-serif;
+    
+}
+header{
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #112d4e;
+}
+nav ul{
+    list-style: none;
+    background: #164884;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+    border-radius: 15%;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #112d4e;
+}
+.hide{
+    font-size: 22px;
+    padding: 16px;
+   background-color: #112d4e;
+   color: white;
+   cursor: pointer;
+   display: none;
+
+}

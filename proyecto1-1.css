@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 'Century Gothic', sans-serif;
+    
+}
+header{
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #112d4e;
+}
+nav ul{
+    list-style: none;
+    background: #164884;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+    border-radius: 15%;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #112d4e;
+}
+.hide{
+    font-size: 22px;
+    padding: 16px;
+   background-color: #112d4e;
+   color: white;
+   cursor: pointer;
+   display: none;
+
+}
+#albumbillie1{
+    position: absolute;
+    top: 29%;
+    padding: 5px;
+    border-radius: 25px;
+}
+#albumbillie2{
+    position: absolute;
+    top: 29%;
+    left: 35%;
+    border-radius: 25px;
+}
+#albumbillie3{
+    position: absolute;
+    top: 29%;
+    left: 70%;
+    border-radius: 25px;
+}
+#albummaluma1{
+position: absolute;
+top: 75%;
+padding: 5px;
+border-radius: 25px;
+}
+#albummaluma2{
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    border-radius: 25px;
+}
+#albummaluma3{
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    border-radius: 25px;
+}
+#albumbruno1{
+    position: absolute;
+    top: 126%;
+    padding: 5px;
+    border-radius: 25px;
+}
+#albumbruno2{
+    position: absolute;
+    top: 126%;
+    left: 35%;
+    border-radius: 25px;
+}
+#albumbruno3{
+    position: absolute;
+    top: 126%;
+    left: 70%;
+    border-radius: 25px;
+}
+#albumadele1{
+    position: absolute;
+    top: 180%;
+    padding: 5px;
+    border-radius: 25px;
+}
+#albumadele2{
+    position: absolute;
+    top: 180%;
+    left: 35%;
+    border-radius: 25px;
+}#albumadele3{
+    position: absolute;
+    top: 180%;
+    left: 70%;
+    border-radius: 25px;
+}
+#albumdua1{
+    position: absolute;
+    top: 235%;
+    padding: 5px;
+    border-radius: 25px;
+}
+#albumdua2{
+    position: absolute;
+    top: 235%;
+    left: 35%;
+    border-radius: 25px;
+}#albumdua3{
+    position: absolute;
+    top: 235%;
+    left: 70%;
+    border-radius: 25px;
+}
+#albumlana1{
+    position: absolute;
+    top: 285%;
+    padding: 5px;
+    border-radius: 25px;
+}
+#albumlana2{
+    position: absolute;
+    top: 285%;
+    left: 35%;
+    border-radius: 25px;
+}
+#albumlana3{
+    position: absolute;
+    top: 285%;
+    left: 70%;
+    border-radius: 25px;
+}
+#albumbillie1,#albumbillie2,#albumbillie3{
+    transition: .5s;
+    filter: grayscale(100%);
+}
+#albumbillie1:hover,#albumbillie2:hover,#albumbillie3:hover{
+    filter: grayscale(0);
+}
+#albummaluma1,#albummaluma2,#albummaluma3{
+    transition: .5s;
+    filter: grayscale(100%);
+}
+#albummaluma1:hover,#albummaluma2:hover,#albummaluma3:hover{
+    filter: grayscale(0);
+}
+#albumbruno1,#albumbruno2,#albumbruno3{
+    transition: .5s;
+    filter: grayscale(100%);
+}
+#albumbruno1:hover,#albumbruno2:hover,#albumbruno3:hover{
+    transition: .5s;
+    filter: grayscale(0);
+}
+#albumadele1,#albumadele2,#albumadele3{
+    transition: .5s;
+    filter: grayscale(100%);
+}
+#albumadele1:hover,#albumadele2:hover,#albumadele3:hover{
+    transition: .5s;
+    filter: grayscale(0);
+}
+#albumdua1,#albumdua2,#albumdua3,#albumlana1,#albumlana2,#albumlana3{
+    transition: .5s;
+    filter: grayscale(100%);
+}
+#albumdua1:hover,#albumdua2:hover,#albumdua3:hover,#albumlana1:hover,#albumlana2:hover,#albumlana3:hover{
+    transition: .5s;
+    filter: grayscale(0);
+}

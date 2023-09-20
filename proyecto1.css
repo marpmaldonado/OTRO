@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 'Century Gothic', sans-serif;
+}
+#texto{
+    position: absolute;
+    top: 20%;
+}
+.body{
+    position: absolute;
+    top: 50%;
+    padding: 5px;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card{
+    margin: 25px;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: .5s;
+}
+.content h2, a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.card:hover .content{
+    opacity: 1;
+}
+header{
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #112d4e;
+}
+nav ul{
+    list-style: none;
+    background: #164884;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+    border-radius: 15%;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #112d4e;
+}
+.hide{
+    font-size: 22px;
+    padding: 16px;
+   background-color: #112d4e;
+   color: white;
+   cursor: pointer;
+   display: none;
+
+}
+@media (max-width: 770px){
+    ul li{
+        width: 100%;
+        padding: 16px;
+        text-align: left;   
+    }
+    nav ul{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+}
+
+
+#billie1{
+    width: 15%;
+    height: 45%;
+    position: absolute;
+    left: 0%;
+    top: 30%;
+    border-radius: 25%;
+    padding: 5px;
+    transition: .2s;
+}
+#billie1:hover{
+    left: 0%;
+    width: 15.5%;
+    height: 45.5%;
+}
+#billie2{
+    position: absolute;
+    left: 5.5%;
+    top: 70%;
+    border: solid #f5f5dc;
+    color: #FAF0BE;
+    border-radius: 25%;
+}
+#maluma1{
+    width: 15%;
+    height: 45%;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    border-radius: 25%;
+    padding: 5px;
+    transition: .2s;
+}
+#maluma1:hover{
+    width: 15.5%;
+    height: 45.5%
+}
+#maluma2{
+    position: absolute;
+    left: 20%;
+    top: 32%;
+    border: solid 	#64c27b;
+    color: white;
+    border-radius: 25%;
+}
+#bruno1{
+    width: 15%;
+    height: 45%;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    border-radius: 25%;
+    padding: 5px;
+    transition: .2s;
+}
+#bruno1:hover{
+    width: 15.5%;
+    height: 45.5%;
+}
+#bruno2{
+    position: absolute;
+    left: 36%;
+    top: 70%;
+    border: solid #8800ff;
+    color: white;
+    border-radius: 25%;
+}
+#lana1{
+    width: 15%;
+    height: 45%;
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    border-radius: 25%;
+    padding: 5px;
+    transition: .2s;
+}
+#lana1:hover{
+    width: 15.5%;
+    height: 45.5%;
+}
+#lana2{
+    position: absolute;
+    left: 83.5%;
+    top: 32%;
+    border: solid 	#b25431;
+    color:  white;
+    border-radius: 25%;
+}
+#dua1{
+    width: 15%;
+    height: 45%;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+    border-radius: 25%;
+    padding: 5px;
+    transition: .2s;
+}
+#dua1:hover{
+    width: 15.5%;
+    height: 45.5%;
+}
+#dua2{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    border: solid 	#64c27b;
+    color:  #ff7987;
+    border-radius: 25%;
+}
+#adele1{
+    width: 15%;
+    height: 45%;
+    position: absolute;
+    right: 35%;
+    top: 30%;
+    border-radius: 25%;
+    padding: 5px;
+    transition: .2s;
+}
+#adele1:hover{
+    width: 15.5%;
+    height: 45.5%;
+}
+#adele2{
+    position: absolute;
+    right: 41%;
+    top: 32%;
+    border: solid 	black;
+    color: #efb810;
+    border-radius: 25%;
+}
+#logo{
+    border-radius: 200%;
+}
+.galeria{
+    width: 50%;
+    height: 50%;
+}
+footer{
+    background: black;
+    color: white;
+    height: 220px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.gg-instagram {
+    box-sizing: border-box;
+    position: relative;
+    left: 8%;
+    top: 55%;
+    display: block;
+    transform: scale(var(--ggs,3));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+.gg-instagram::after,
+.gg-instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+.gg-instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+.gg-instagram2 {
+    box-sizing: border-box;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    display: block;
+    transform: scale(var(--ggs,3));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+.gg-instagram2::after,
+.gg-instagram2::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-instagram2::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+.gg-instagram2::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+
+
+.gg-instagram3 {
+    box-sizing: border-box;
+    position: relative;
+    left: 40%;
+    top: 10%;
+    display: block;
+    transform: scale(var(--ggs,3));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+.gg-instagram3::after,
+.gg-instagram3::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-instagram3::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+.gg-instagram3::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+.gg-instagram4 {
+    box-sizing: border-box;
+    position: relative;
+    left: 57%;
+    top: 0%;
+    display: block;
+    transform: scale(var(--ggs,3));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+.gg-instagram4::after,
+.gg-instagram4.gg-instagram {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-instagram4::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+.gg-instagram4::before {
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+
+.gg-instagram5 {
+    box-sizing: border-box;
+    position: relative;
+    left: 72%;
+    top: -10%;
+    display: block;
+    transform: scale(var(--ggs,3));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+.gg-instagram5::after,
+.gg-instagram5.gg-instagram {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-instagram5::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+.gg-instagram5::before {
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+
+.gg-instagram6 {
+    box-sizing: border-box;
+    position: relative;
+    left: 88%;
+    top: -20%;
+    display: block;
+    transform: scale(var(--ggs,3));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+.gg-instagram6::after,
+.gg-instagram6.gg-instagram {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-instagram6::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+.gg-instagram6::before {
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}

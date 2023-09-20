@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO</title>
+    <link rel="icon" href="logo2.jpg">
+    <link rel="stylesheet" href="proyecto1.css">
+    <link rel="stylesheet" href="lightbox.min.css">
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <script src="/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".hide").on('click', function(){
+                $("nav ul").toggle('slow');
+            })
+            for(var card=0, limit=3;card<limit;card++){
+                $()
+                $(".card").hide().fadeIn(3000).fadeOut(1000).fadeIn(1000);
+            }
+                
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ARTISTAS RECOMENDADOS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="PROYECTO.HTML">ARTISTAS</a></li>
+            <li><a href="Albumes.html">ALBUMES</a></li>
+            <!-- <li><a href="Canciones.html">CANCIONES</a></li> -->
+        </ul>
+        <div class="hide">
+            <i class="fa fa-bars" aria-hidden="true"></i> Menu
+        </div>
+        <div style="width:100%"><div style="height:0;padding-bottom:56.25%;position:relative;width:100%"><iframe allowfullscreen="" frameBorder="0" height="100%" src="https://giphy.com/embed/xU5eJlXYuSC23SmrYL/video" style="left:0;position:absolute;top:0" width="100%"></iframe></div></div>  
+        
+    </nav>
+    <div class="galeria">
+    <a title="BILLIE EILISH"href="billie1.webp" data-lightbox="mygallery"><img src="billie1.webp" id="billie1"></a>
+    <h3 id="billie2">BILLIE</h3>
+    <a title="MALUMA"href="maluma1.webp" data-lightbox="mygallery"><img src="maluma1.webp" id="maluma1"></a>
+    <h3 id="maluma2">MALUMA</h3>
+    <a title="BRUNO MARS"href="bruno1.jpg" data-lightbox="mygallery"><img src="bruno1.jpg" id="bruno1"></a>
+    <h3 id="bruno2">BRUNO</h3>
+    <a title="ADELE"href="adele1.jpg" data-lightbox="mygallery"><img src="dua1.webp" id="dua1"></a>
+    <h3 id="dua2">DUA LIPA</h3>
+    <a title="DUA LIPA" href="dua1.webp" data-lightbox="mygallery"><img src="adele1.jpg" id="adele1"></a>
+    <h3 id="adele2">ADELE</h3>
+    <a title="LANA DEL REY" href="lana1.webp" data-lightbox="mygallery"><img src="lana1.webp" id="lana1"></a>
+    <h3 id="lana2">LANA DEL REY</h3>
+    </div>
+    <div class="body">
+        <div class="card" style="--i:url(billiecard1.webp)">
+            <div class="content" >
+                <h2>BILLIE</h2>
+                <a href="#">Billie Eilish Pirate Baird O'Connell (Los Ángeles, California; 18 de diciembre de 2001), conocida simplemente como Billie Eilish, es una cantante estadounidense.</a>
+            </div>
+        </div>
+        <div class="card"  style="--i:url(malumacard1.jpg)">
+            <div class="content">
+                <h2>MALUMA</h2>
+                <a href="#">Juan Luis Londoño Arias, conocido por su nombre artístico Maluma, es un cantante y compositor colombiano. Saltó a la fama en su país natal en 2011, gracias a los sencillos «Farandulera», «Obsesión», y «La temperatura»; y con «Carnaval», en el resto de América Latina</a>
+            </div>
+        </div>
+        <div class="card" style="--i:url(brunocard1.webp)">
+            <div class="content" >
+                <h2>BRUNO MARS</h2>
+                <a href="#">Peter Gene Hernández, conocido artísticamente como Bruno Mars, es un cantante, compositor, productor musical y bailarín estadounidense. Comenzó a crear música desde una edad muy temprana y actuó en muchos escenarios de su pueblo natal a lo largo de su niñez, realizando imitaciones.</a>
+            </div>
+        </div>
+        <div class="card" style="--i:url(adelecard1.webp)">
+            <div class="content">
+                <h2>ADELE</h2>
+                <a href="#">Adele Laurie Blue Adkins, conocida simplemente como Adele, es una cantautora y multinstrumentista británica.​ Es una de las artistas musicales con mayores ventas del mundo, con más de 120 millones de ventas entre discos y sencillos.</a>
+            </div>
+        </div>
+        <div class="card"  style="--i:url(duacard1.webp)">
+            <div class="content">
+                <h2>DUA LIPA</h2>
+                <a href="#">Dua Lipa es una cantante, compositora, modelo y actriz británica-albanesa. Después de trabajar como modelo, firmó con Warner Bros. Records en 2014 y lanzó su álbum debut homónimo en 2017. </a>
+            </div>
+        </div>
+        <div class="card"  style="--i:url(lanacard1.avif)">
+            <div class="content">
+                <h2>LANA DEL REY</h2>
+                <a href="#">Elizabeth Woolridge Grant (Nueva York, 21 de junio de 1985),a​conocida artísticamente como Lana Del Rey, es una cantante, compositora, modelo, actriz, escritora, productora y poeta estadounidense. Su música se destaca por su estilizada calidad cinematográfica, su estilo retro y la exploración del romance trágico</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+        <footer>
+            <a href="https://www.instagram.com/billieeilish/?hl=es" class="gg-instagram"></a>
+         REDES SOCIALES DE LOS CANTANTES
+         <a href="https://www.instagram.com/maluma" class="gg-instagram2"></a>
+         <a href="https://www.instagram.com/brunomars/?hl=es" class="gg-instagram3"></a>
+         <a href="https://www.instagram.com/adele/?hl=es" class="gg-instagram4"></a>
+         <a href="https://www.instagram.com/dualipa/" class="gg-instagram5"></a>
+         <a href="https://www.instagram.com/lanadelreybr/?hl=es" class="gg-instagram6"></a>
+        </footer>
+    </div>
+</body>
+</html>
+<!-- 1 2 3          4 5 6 -->
+<!-- 5 6 4          2 3 1 -->
